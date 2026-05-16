@@ -1,6 +1,22 @@
-# Amana Backend Service
+# 🌾 Amana Backend Service
 
-The Amana Backend Service provides the API and infrastructure integration layer for the Amana escrow protocol.
+The official Node.js/TypeScript backend for **Amana**, a decentralized escrow protocol designed to secure agricultural trade across different regions.
+
+Amana eliminates the "Trust Gap" between buyers and sellers using Soroban Smart Contracts on the Stellar network, ensuring fair trade even when parties are hundreds of miles apart.
+
+## About Amana
+
+**Amana** provides a programmable safety net for regional commodity trading:
+
+- **Smart Escrow**: Secure funds holding using cNGN/stablecoins on the Stellar network
+- **Dynamic Loss Sharing**: Negotiable risk-sharing ratios (e.g., 50/50, 70/30) for handling transit accidents
+- **Proof-of-Delivery (PoD)**: Mandatory video-based verification involving buyer and driver
+- **Automated Settlement**: Flat 1% platform fee deducted upon successful trade completion
+- **Volatility Protection**: Stellar Path Payments allow users to pay in local currency (NGN) while locking value in cNGN
+
+## Backend Responsibilities
+
+This service provides the API and infrastructure integration layer for the Amana escrow protocol.
 It handles trade orchestration, Supabase metadata, IPFS/Pinata uploads, Stellar payment bridging, and OpenTelemetry tracing.
 
 ## Features
